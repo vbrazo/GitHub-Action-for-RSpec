@@ -1,0 +1,12 @@
+on: push
+name: on push
+jobs:
+  gitHubActionForRspec:
+    name: GitHub Action for rspec
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: GitHub Action for RSpec
+      uses: vbrazo/GitHub-Action-for-RSpec@master
+      with:
+        args: rspec -h
