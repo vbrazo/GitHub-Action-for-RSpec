@@ -2,7 +2,7 @@
 
 Each time that new code is pushed into your repo, you can have a [rspec](https://rspec.info/) command automatically run.
 
-$ rspec --help
+$ __rspec --help__
 ```
 Usage: rspec [options] [files or directories]
 
