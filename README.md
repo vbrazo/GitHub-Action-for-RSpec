@@ -1,6 +1,6 @@
-# GitHub Action for running rspec commands
+# GitHub Action for running RSpec commands
 
-Each time that new code is pushed into your repo, you can have a [rspec](https://rspec.info/) command automatically run.
+Each time that new code is pushed into your repo, you can have a [RSpec](https://rspec.info/) command automatically run.
 
 $ __rspec --help__
 ```
