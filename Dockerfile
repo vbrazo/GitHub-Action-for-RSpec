@@ -5,7 +5,6 @@ LABEL "com.github.actions.description"="Run rspec commands"
 LABEL "com.github.actions.icon"="upload-cloud"
 LABEL "com.github.actions.color"="yellow"
 
-RUN apk add --no-cache bash
 RUN gem install bundler
 RUN gem install rspec
 RUN ruby --version
